@@ -1,0 +1,33 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background-color: #f5f7fb;
+}
+
+/* HERO */
+.hero-section {
+  background: linear-gradient(135deg, #0d6efd, #6610f2);
+  min-height: 70vh;
+  color: #fff;
+}
+
+.hero-img {
+  max-height: 380px;
+  object-fit: cover;
+}
+
+/* Tarjetas */
+.feature-card,
+.product-card {
+  border: none;
+  border-radius: 1rem;
+}
+
+.feature-card .card-body,
+.product-card .card-body {
+  padding: 1.5rem;
+}
+
+/* Footer */
+.footer {
+  font-size: 0.85rem;
+}
