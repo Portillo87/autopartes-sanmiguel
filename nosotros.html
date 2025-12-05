@@ -1,62 +1,71 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AutoPartes San Miguel | Nosotros</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AutoPartes San Miguel | Nosotros</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-dark shadow-sm sticky-top bg-primary">
-  <div class="container">
-    <a class="navbar-brand fw-bold" href="index.html">AutoPartes San Miguel</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="mainNav">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-        <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
-        <li class="nav-item"><a class="nav-link active" href="nosotros.html">Nosotros</a></li>
-        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
-      </ul>
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">AutoPartes San Miguel</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+                <li class="nav-item"><a class="nav-link active" href="nosotros.html">Nosotros</a></li>
+                <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+
+                <li class="nav-item ms-3 d-flex align-items-center">
+                    <span class="badge bg-light text-primary" id="cart-count">0</span>
+                    <span class="ms-2 text-white small">Carrito</span>
+                </li>
+            </ul>
+        </div>
     </div>
-  </div>
 </nav>
 
 <section class="py-5 bg-light">
-  <div class="container">
-    <div class="row g-4 align-items-center">
-      <div class="col-lg-6">
-        <h1 class="mb-3">Sobre AutoPartes San Miguel</h1>
-        <p>
-          AutoPartes San Miguel es una empresa dedicada a la venta de repuestos automotrices, ubicada en
-          la ciudad de San Miguel, El Salvador. Nuestro objetivo es brindar productos de calidad y un
-          servicio confiable a nuestros clientes.
-        </p>
-        <p>
-          Como parte de la modernización de la empresa, este proyecto plantea la migración del sitio web
-          a la nube utilizando Microsoft Azure, mejorando la disponibilidad y el acceso a la información
-          de productos para nuestros clientes.
-        </p>
-      </div>
-      <div class="col-lg-6 text-center">
-        <img src="https://images.pexels.com/photos/3807273/pexels-photo-3807273.jpeg"
-             class="img-fluid rounded-4 shadow-lg"
-             alt="Equipo de trabajo en taller automotriz">
-      </div>
+    <div class="container" data-aos="fade-up">
+        <div class="row g-4 align-items-center">
+            <div class="col-lg-6">
+                <h1 class="mb-3">Sobre AutoPartes San Miguel</h1>
+                <p>
+                    Somos una empresa dedicada a la venta de repuestos automotrices en San Miguel, El Salvador,
+                    ofreciendo servicio honesto y atención personalizada.
+                </p>
+                <p>
+                    Nuestro proyecto incluye la migración del sitio a la nube con Microsoft Azure
+                    para mejorar disponibilidad y acceso.
+                </p>
+            </div>
+            <div class="col-lg-6 text-center">
+                <img src="https://media.istockphoto.com/id/1355626500/es/foto/corte-t%C3%A9cnico-del-coche-gen%C3%A9rico-el%C3%A9ctrico.webp?a=1&b=1&s=612x612&w=0&k=20&c=QIhf0GpvzqhkMkXE5_0549ftbGoPwYby0ESBMIBestU="
+                    class="img-fluid rounded-4 shadow-lg" alt="Equipo">
+            </div>
+        </div>
     </div>
-  </div>
 </section>
 
 <footer class="footer bg-dark text-light py-3">
-  <div class="container text-center small">
-    © 2025 AutoPartes San Miguel. Todos los derechos reservados.
-  </div>
+    <div class="container text-center small">
+        © 2025 AutoPartes San Miguel. Todos los derechos reservados.
+    </div>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="script.js"></script>
+
 </body>
 </html>
